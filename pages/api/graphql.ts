@@ -1,6 +1,5 @@
 import { ApolloServer } from "apollo-server-micro";
-import { typeDefs } from "./schemas";
-import { resolvers } from "./resolvers";
+import { resolvers, typeDefs } from "src";
 
 const apolloServer = new ApolloServer({ typeDefs, resolvers });
 
